@@ -1,8 +1,11 @@
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
         <div>
-            This is Header
+            <NavLink style={{'marginRight': '25px'}} to='/'>Home</NavLink>
+            <NavLink to='/login'>Login</NavLink>
+           
         </div>
     );
 };
